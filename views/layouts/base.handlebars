@@ -9,6 +9,19 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="../../static/style/frontend.css" type="text/css" rel="stylesheet">
     <title>Administración Chatbot</title>
+    <script src="https://www.gstatic.com/firebasejs/5.5.8/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDGKNEZYW1QwKhz1E_0LSwtntOhyhYFUKc",
+    authDomain: "grancapibotprueba.firebaseapp.com",
+    databaseURL: "https://grancapibotprueba.firebaseio.com",
+    projectId: "grancapibotprueba",
+    storageBucket: "grancapibotprueba.appspot.com",
+    messagingSenderId: "507239037758"
+  };
+  firebase.initializeApp(config);
+</script>
 </head>
 <body>
   <nav>
@@ -28,6 +41,7 @@
   </aside>
 
 {{{body}}}
+
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
 <script src="../../static/form.js"></script>
